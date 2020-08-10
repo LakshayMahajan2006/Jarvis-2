@@ -18,7 +18,7 @@ def speak(audio):
 def wishme():
     hour=int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak('good morning mr. vishal')
+        speak('good morning mr. vishal')#user use his name here 
 
     elif hour>=12 and hour<18:
         speak('good afternoon mr. vishal')
@@ -26,7 +26,7 @@ def wishme():
     else:
         speak('good evening mr. vishal')    
 
-    speak('i am jarvis . please tell me how can i help  you')
+    speak('i am jarvis . please tell me how can i help  you')#greetings from jarvis
 
 def takecommand():
     #it takes microphone input through user and returns string output
